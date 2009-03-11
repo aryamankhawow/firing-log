@@ -1,0 +1,14 @@
+Row format
+
+  date,engine,seconds,thrust_kn,result,operator,note
+
+date        YYYY-MM-DD, UTC
+engine      id from log/engines.csv
+seconds     integer, 0 to 300
+thrust_kn   integer
+result      ok | aborted | RUD
+operator    id from log/operators.csv
+note        free text, no commas, no newlines
+
+Seven columns, in this order. A row with six or eight columns is rejected and printed back
+with the column count.

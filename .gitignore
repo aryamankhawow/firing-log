@@ -1,0 +1,4 @@
+*.test
+flog
+*.out
+.DS_Store

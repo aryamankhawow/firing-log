@@ -1,0 +1,7 @@
+Stand procedure, short form
+
+1. Log the row before the run, not after.
+2. Second person reads the engine id and the duration back.
+3. Result is written by the console operator only.
+4. Aborted runs keep the row. Do not delete.
+5. RUD gets a note with the first observed failure.

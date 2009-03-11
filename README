@@ -7,12 +7,13 @@ year as a grid so the stand crew can see how a campaign is actually going, not h
 
 Build
 
-  go build ./...
+  make
 
 Usage
 
   flog add -engine merlin1c -seconds 30 -thrust 340 -result ok
   flog grid -year 2010
+  flog report -engine merlin1d
 
 Columns
 
@@ -26,11 +27,16 @@ Append only. Do not edit a row after the shift ends. Corrections go in note.
 
 Layout
 
+  cmd/flog     command line front end
+  log          row format, parser, writer
+  grid         year grid renderer
+  report       weekly and per-engine rollups
+  csvutil      reader and writer, quoting
+  config       paths and defaults
+  doc          format spec, stand procedure, known issues
+  testdata     small and malformed samples for the tests
+  scripts      helpers for the console
+
+Layout
+
   log/firings.csv   the log, one row per firing
-  grid/             year grid renderer
-  add.go            appends a row, validates columns
-- columns: date, engine, seconds, thrust, result, operator, note
-- note: do not edit rows after the shift
-- layout section
-- build section
-- result values, exactly three

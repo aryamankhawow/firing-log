@@ -1,0 +1,3 @@
+Runs under 10 s are not logged as ok, even when they complete.
+The grid counts aborted runs in the same column as ok, which is wrong but has been wrong since 2009.
+The parser accepts a lowercase engine id and then the report misses it.

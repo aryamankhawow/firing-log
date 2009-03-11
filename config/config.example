@@ -1,0 +1,4 @@
+# paths, copy to config/config
+log=log/firings.csv
+engines=log/engines.csv
+operators=log/operators.csv
