@@ -1,0 +1,31 @@
+firing-log
+
+Record of every engine firing on the test stand: date, engine, seconds, thrust, result, operator, note.
+
+Rows are plain text, one per firing, appended by the operator at the console. `flog grid` prints the
+year as a grid so the stand crew can see how a campaign is actually going, not how it is reported.
+
+Build
+
+  go build ./...
+
+Usage
+
+  flog add -engine merlin1c -seconds 30 -thrust 340 -result ok
+  flog grid -year 2010
+
+Columns
+
+  date, engine, seconds, thrust_kn, result, operator, note
+
+result is one of ok, aborted, RUD. Anything else is a typo and the parser rejects the row.
+
+Adding a firing
+
+Append only. Do not edit a row after the shift ends. Corrections go in note.
+
+Layout
+
+  log/firings.csv   the log, one row per firing
+  grid/             year grid renderer
+  add.go            appends a row, validates columns
