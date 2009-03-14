@@ -29,3 +29,4 @@ Layout
   log/firings.csv   the log, one row per firing
   grid/             year grid renderer
   add.go            appends a row, validates columns
+- columns: date, engine, seconds, thrust, result, operator, note
