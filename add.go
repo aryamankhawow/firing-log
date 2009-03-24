@@ -18,3 +18,4 @@ func addCmd(args []string) {
 	_ = engine; _ = secs; _ = thrust; _ = result
 	_ = time.Now()
 }
+// reject unknown result
