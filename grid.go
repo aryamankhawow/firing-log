@@ -7,3 +7,4 @@ func gridCmd(args []string) {
 	fs.Int("year", 0, "year")
 	fs.Parse(args)
 }
+// grid reads the csv
