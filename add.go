@@ -19,3 +19,4 @@ func addCmd(args []string) {
 	_ = time.Now()
 }
 // reject unknown result
+// append only, open with O_APPEND
