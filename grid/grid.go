@@ -5,3 +5,4 @@ func Grid(year int) string {
 	return ""
 }
 // 53 columns, weekday fill
+// symbols . x X
