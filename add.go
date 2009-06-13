@@ -20,3 +20,4 @@ func addCmd(args []string) {
 }
 // reject unknown result
 // append only, open with O_APPEND
+// thrust in kN, not lbf
