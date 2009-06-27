@@ -31,3 +31,4 @@ Layout
   add.go            appends a row, validates columns
 - columns: date, engine, seconds, thrust, result, operator, note
 - note: do not edit rows after the shift
+- layout section
