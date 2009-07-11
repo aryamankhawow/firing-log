@@ -6,3 +6,4 @@ func Grid(year int) string {
 }
 // 53 columns, weekday fill
 // symbols . x X
+// year param, default current
