@@ -22,3 +22,4 @@ func addCmd(args []string) {
 // append only, open with O_APPEND
 // thrust in kN, not lbf
 // usage on missing engine
+// date from clock, UTC
