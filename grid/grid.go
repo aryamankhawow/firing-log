@@ -8,3 +8,4 @@ func Grid(year int) string {
 // symbols . x X
 // year param, default current
 // ANSI colours off by default
+// skip blank lines
