@@ -23,3 +23,4 @@ func addCmd(args []string) {
 // thrust in kN, not lbf
 // usage on missing engine
 // date from clock, UTC
+// operator from 
