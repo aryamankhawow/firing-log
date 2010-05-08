@@ -9,3 +9,4 @@ func Grid(year int) string {
 // year param, default current
 // ANSI colours off by default
 // skip blank lines
+// count per week
