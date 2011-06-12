@@ -2,3 +2,4 @@
 log=log/firings.csv
 engines=log/engines.csv
 operators=log/operators.csv
+operators=log/operators.csv
