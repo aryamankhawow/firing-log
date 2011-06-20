@@ -12,3 +12,4 @@ note        free text, no commas, no newlines
 
 Seven columns, in this order. A row with six or eight columns is rejected and printed back
 with the column count.
+- eight columns is an error, print the count back
