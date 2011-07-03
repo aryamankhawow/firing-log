@@ -13,3 +13,4 @@ clean:
 	rm -f flog
 
 .PHONY: all build test grid clean
+# report is built with the rest
